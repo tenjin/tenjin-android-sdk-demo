@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         TenjinSDK instance = TenjinSDK.getInstance(this, "YWZKFWDZEREQCFMF3DST3AYHZPCC9MWV");
         // Set the appstore
         // If you distribute your app on Google Play store or Amazon store. Then set it to googleplay
-        instance.setAppStore(TenjinSDK.AppStoreType.googleplay);
+//        instance.setAppStore(TenjinSDK.AppStoreType.googleplay);
+        instance.setAppStore(TenjinSDK.AppStoreType.other);
         // connect to start the TenjinSDK
         instance.connect();
     }
