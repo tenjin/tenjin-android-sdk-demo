@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private void startTenjinSDK() {
         // Tenjin SDK Integration
         // Add Tenjin API Key from your Tenjin dashboard - https://www.tenjin.io/dashboard/docs.
-        TenjinSDK instance = TenjinSDK.getInstance(this, "YWZKFWDZEREQCFMF3DST3AYHZPCC9MWV");
+        TenjinSDK instance = TenjinSDK.getInstance(this, "YBVOZTLH6TTSFVXH9VVKWHEUCQPTMPN1");
         // Set the appstore
         // If you distribute your app on Google Play store or Amazon store. Then set it to googleplay
         instance.setAppStore(TenjinSDK.AppStoreType.googleplay);
